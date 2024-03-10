@@ -1,4 +1,26 @@
 
+## Installation
+
+## URDF
+
+```bash
+sudo apt install ros-foxy-xacro ros-foxy-joint-state-publisher-gui
+```
+
+## ros_serial_demo
+git clone in both devices
+```bash
+git clone https://github.com/joshnewans/serial_motor_demo.git
+```
+```bash
+sudo apt install python3-serial
+```
+
+    
+
+- [Arduino code link](https://github.com/joshnewans/ros_arduino_bridge.git)
+
+
 #### pin configuration
 
 
