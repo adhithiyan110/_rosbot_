@@ -61,3 +61,8 @@ ros2 run serial_motor_demo driver --ros-args -p encoder_cpr:=3440 -p loop_rate:=
 ```bash
 ros2 run serial_motor_demo gui
 ```
+
+## ros2_control
+```bash
+sudo apt install ros-foxy-ros2-control ros-foxy-ros2-controllers ros-foxy-gazebo-ros2-control
+```
