@@ -66,3 +66,20 @@ ros2 run serial_motor_demo gui
 ```bash
 sudo apt install ros-foxy-ros2-control ros-foxy-ros2-controllers ros-foxy-gazebo-ros2-control
 ```
+
+```bash
+ros2 control list_hardware_interfaces
+```
+```bash
+ros2 control list_controllers
+```
+```bash
+ros2 run controller_manager spawner.py diff_cont
+```
+```bash
+ros2 run controller_manager spawner.py joint_broad
+```
+
+```bash
+ros2 run teleop_twist_keyboard teleop_twist_keyboard --ros-args -r /cmd_vel:=/diff_cont/cmd_vel_unstamped
+```
