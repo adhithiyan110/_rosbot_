@@ -4,6 +4,10 @@
 sudo apt install gazebo
 sudo apt install ros-foxy-gazebo-ros-pkgs
 ```
+```bash
+sudo apt install ros-foxy-xacro
+```
+
 ## Installation
 
 ## URDF
