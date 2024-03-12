@@ -1,4 +1,9 @@
+## general installation 
 
+```bash
+sudo apt install gazebo
+sudo apt install ros-foxy-gazebo-ros-pkgs
+```
 ## Installation
 
 ## URDF
