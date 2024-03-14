@@ -12,8 +12,6 @@ sudo apt install ros-foxy-xacro
 sudo apt install ros-foxy-rplidar-ros
 ```
 
-## Installation
-
 ## URDF
 
 ```bash
