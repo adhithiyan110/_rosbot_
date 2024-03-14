@@ -7,17 +7,16 @@ sudo apt install ros-foxy-gazebo-ros-pkgs
 ```bash
 sudo apt install ros-foxy-xacro
 ```
-## LIDAR
-```bash
-sudo apt install ros-foxy-rplidar-ros
-```
 
 ## URDF
 
 ```bash
 sudo apt install ros-foxy-xacro ros-foxy-joint-state-publisher-gui
 ```
-
+## LIDAR
+```bash
+sudo apt install ros-foxy-rplidar-ros
+```
 ## ros_serial_demo
 git clone in both devices
 ```bash
