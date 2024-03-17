@@ -29,8 +29,10 @@ sudo apt install python3-serial
 ```bash
 sudo apt install ros-foxy-slam-toolbox
 ```
-
-    
+## NAV2
+```bash
+sudo apt install ros-foxy-navigation2 ros-foxy-nav2-bringup ros-foxy-turtlebot3*
+```
 
 - [Arduino code link](https://github.com/joshnewans/ros_arduino_bridge.git)
 
@@ -97,7 +99,7 @@ ros2 run controller_manager spawner.py joint_broad
 ```bash
 ros2 run teleop_twist_keyboard teleop_twist_keyboard --ros-args -r /cmd_vel:=/diff_cont/cmd_vel_unstamped
 ```
-##slam toolbox
+## slam toolbox
 ```bash
 cp /opt/ros/foxy/share/slam_toolbox/config/mapper_params_online_async.yaml omnisim_ws/src/omniwheel_description/config
 ```
